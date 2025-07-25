@@ -3,8 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load data
-df = pd.read_csv('dashboard/main_data.csv')
+import os
+current_dir = os.path.dirname(__file__)
+file_path = os.path.join(current_dir, 'main_data.csv')
+
+df = pd.read_csv(file_path)
+
 
 # Sidebar filter
 selected_season = st.sidebar.selectbox("Pilih Musim", df['season'].unique())
