@@ -4,14 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-df = pd.read_csv('/dashboard/main_data.csv')
-
-# Preprocessing ulang (jika belum)
-df['dteday'] = pd.to_datetime(df['dteday'])
-df.rename(columns={'dteday': 'date', 'yr': 'year', 'mnth': 'month', 'hum': 'humidity', 'cnt': 'total_rentals', 'atemp': 'feels_like', 'weathersit': 'weather'}, inplace=True)
-df['season'] = df['season'].map({1: 'Spring', 2: 'Summer', 3: 'Fall', 4: 'Winter'})
-df['weather'] = df['weather'].map({1: 'Clear', 2: 'Mist/Cloudy', 3: 'Light Rain/Snow', 4: 'Heavy Rain/Snow'})
-df['year'] = df['year'].map({0: 2011, 1: 2012})
+df = pd.read_csv('dashboard/main_data.csv')
 
 # Sidebar filter
 selected_season = st.sidebar.selectbox("Pilih Musim", df['season'].unique())
