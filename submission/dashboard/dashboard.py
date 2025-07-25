@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 import os
+
+# Path aman agar bisa diakses di Streamlit Cloud
 current_dir = os.path.dirname(__file__)
 file_path = os.path.join(current_dir, 'main_data.csv')
 
+# Load data
 df = pd.read_csv(file_path)
-
 
 # Sidebar filter
 selected_season = st.sidebar.selectbox("Pilih Musim", df['season'].unique())
