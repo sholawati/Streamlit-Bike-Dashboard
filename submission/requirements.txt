@@ -1,2 +1,3 @@
-pip install pipreqs
-pipreqs submission/
+streamlit
+pandas
+matplotlib
