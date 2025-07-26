@@ -6,8 +6,8 @@ import os
 
 # --- Load Data ---
 current_dir = os.path.dirname(__file__)
-data_path = os.path.join(current_dir, 'main_data.csv')
-df = pd.read_csv(data_path)
+file_path = os.path.join(current_dir, 'main_data.csv')
+df = pd.read_csv(file_path)
 
 # --- Sidebar Filters ---
 st.sidebar.title("Filter Data")
