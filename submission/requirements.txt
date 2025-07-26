@@ -2,5 +2,3 @@ pandas
 matplotlib
 seaborn
 streamlit
-pip install pipreqs
-pipreqs submission/ --force
