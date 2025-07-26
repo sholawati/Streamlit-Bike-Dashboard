@@ -24,3 +24,15 @@ submission/
 git clone https://github.com/sholawati/Streamlit-Bike-Dashboard.git
 cd Streamlit-Bike-Dashboard/submission
 ```
+
+2. **Install library yang dibutuhkan:**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Jalankan Streamlit:**
+
+```bash
+streamlit run dashboard/dashboard.py
+```
