@@ -5,8 +5,7 @@ import seaborn as sns
 import os
 
 # --- Load Data ---
-current_dir = os.path.dirname(__file__)
-file_path = os.path.join(current_dir, 'main_data.csv')
+file_path = os.path.join(os.path.dirname(__file__), 'main_data.csv')
 df = pd.read_csv(file_path)
 
 # --- Sidebar Filters ---
