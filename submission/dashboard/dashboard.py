@@ -10,7 +10,7 @@ plt.rcParams['axes.titlesize'] = 16
 plt.rcParams['axes.labelsize'] = 14
 
 # Load data
-df = pd.read_csv('data/data_1.csv')
+df = pd.read_csv('submission/data/data_1.csv')
 df['season'] = df['season'].map({1: 'Spring', 2: 'Summer', 3: 'Fall', 4: 'Winter'})
 df['weather'] = df['weathersit'].map({
     1: 'Clear',
