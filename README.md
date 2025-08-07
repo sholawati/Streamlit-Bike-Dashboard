@@ -9,11 +9,11 @@ Proyek ini merupakan dashboard interaktif berbasis **Streamlit** yang menampilka
 ```
 submission/
 ├── dashboard/
-│   ├── main_data.csv          # Dataset yang sudah dibersihkan untuk dashboard
-│   └── dashboard.py           # Script utama untuk menjalankan Streamlit
+│   ├── main_data.csv         # Dataset yang sudah dibersihkan untuk dashboard
+│   └── dashboard.py          # Script utama untuk menjalankan Streamlit
 ├── data/
-│   ├── data_1.csv             # Dataset asli
-│   └── data_2.csv             # Dataset asli
+│   ├── data_1.csv            # Dataset asli
+│   └── data_2.csv            # Dataset asli
 ├── notebook.ipynb            # Notebook untuk analisis eksploratif data (EDA)
 ├── README.md                 # Petunjuk penggunaan proyek
 ├── requirements.txt          # Daftar dependensi Python
