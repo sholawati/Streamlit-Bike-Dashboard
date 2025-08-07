@@ -31,7 +31,7 @@ Ikuti langkah-langkah berikut untuk menjalankan dashboard di komputer Anda:
 Buka terminal/command prompt Anda, lalu jalankan perintah berikut:
 
 ```bash
-git clone https://github.com/sholawati/Streamlit-Bike-Dashboard.
+git clone https://github.com/sholawati/Streamlit-Bike-Dashboard.git
 ```
 
 ### 2. Masuk ke folder Streamlit-Bike-Dashboard
@@ -81,3 +81,4 @@ Jika Anda ingin melihat versi online dari dashboard ini (jika sudah di-deploy), 
 - Pastikan Python sudah terinstall di sistem Anda (disarankan versi 3.9 atau lebih baru).
 - Jika ada error terkait `seaborn`, `pandas`, atau `streamlit`, pastikan semua dependensi sudah terinstall dengan benar dari file `requirements.txt`.
 - Jika Anda ingin menjalankan ulang notebook analisis, pastikan Jupyter Notebook juga terinstall (`pip install notebook`).
+
