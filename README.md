@@ -31,36 +31,39 @@ Ikuti langkah-langkah berikut untuk menjalankan dashboard di komputer Anda:
 Buka terminal/command prompt Anda, lalu jalankan perintah berikut:
 
 ```bash
-git clone https://github.com/sholawati/Streamlit-Bike-Dashboard.git
-cd Streamlit-Bike-Dashboard/submission
+git clone https://github.com/sholawati/Streamlit-Bike-Dashboard.
 ```
 
-### 2. Buat Virtual Environment (Opsional, tapi Direkomendasikan)
+### 2. Masuk ke folder Streamlit-Bike-Dashboard
+
+Masih pada terminal/command prompt Anda, lalu jalankan perintah berikut:
 
 ```bash
-python -m venv venv
+cd Streamlit-Bike-Dashboard
 ```
 
-Aktifkan environment:
-- **Windows:**
-  ```bash
-  venv\Scripts\activate
-  ```
-- **Mac/Linux:**
-  ```bash
-  source venv/bin/activate
-  ```
-
 ### 3. Install Library yang Dibutuhkan
+
+Masih pada terminal/command prompt Anda, lalu jalankan perintah berikut:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Jalankan Dashboard
+### 4. install streamlit
+
+Masih pada terminal/command prompt Anda, lalu jalankan perintah berikut:
 
 ```bash
-streamlit run dashboard/dashboard.py
+pip install streamlit
+```
+
+### 5. Jalankan Dashboard
+
+Masih pada terminal/command prompt Anda, lalu jalankan perintah berikut:
+
+```bash
+streamlit run submission/dashboard/dashboard.py
 ```
 
 Streamlit akan otomatis membuka tab browser ke alamat lokal seperti `http://localhost:8501`.
