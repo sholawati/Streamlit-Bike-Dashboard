@@ -34,7 +34,7 @@ Buka terminal/command prompt Anda, lalu jalankan perintah berikut:
 git clone https://github.com/sholawati/Streamlit-Bike-Dashboard.git
 ```
 
-### 2. Masuk ke folder Streamlit-Bike-Dashboard
+### 2. Masuk ke Folder Streamlit-Bike-Dashboard
 
 Masih pada terminal/command prompt Anda, lalu jalankan perintah berikut:
 
@@ -50,7 +50,7 @@ Masih pada terminal/command prompt Anda, lalu jalankan perintah berikut:
 pip install -r requirements.txt
 ```
 
-### 4. install streamlit
+### 4. Install Streamlit
 
 Masih pada terminal/command prompt Anda, lalu jalankan perintah berikut:
 
@@ -81,4 +81,3 @@ Jika Anda ingin melihat versi online dari dashboard ini (jika sudah di-deploy), 
 - Pastikan Python sudah terinstall di sistem Anda (disarankan versi 3.9 atau lebih baru).
 - Jika ada error terkait `seaborn`, `pandas`, atau `streamlit`, pastikan semua dependensi sudah terinstall dengan benar dari file `requirements.txt`.
 - Jika Anda ingin menjalankan ulang notebook analisis, pastikan Jupyter Notebook juga terinstall (`pip install notebook`).
-
